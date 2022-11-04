@@ -8,9 +8,9 @@ toggleBtn.addEventListener("click", toggleSwitchBtn);
 // Functions
 function toggleSwitchBtn() {
   if(toggleBtn.src.indexOf('toggle-btn-dark.svg')!=-1){
-     toggleBtn.src = "./assets/images/icons/toggle-btn-white.svg";
+     toggleBtn.src = "./assets/images/toggle-btn-white.svg";
   }else {
-    toggleBtn.src = "./assets/images/icons/toggle-btn-dark.svg";
+    toggleBtn.src = "./assets/images/toggle-btn-dark.svg";
   }
 };
                       
