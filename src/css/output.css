@@ -561,16 +561,16 @@ video {
   display: flex;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .h-20 {
   height: 5rem;
 }
 
 .h-10 {
   height: 2.5rem;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .min-h-screen {
