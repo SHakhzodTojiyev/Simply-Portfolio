@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link href="./assets/css/output.css" rel="stylesheet" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
   </head>
-  <body id="root">
-    <main class="bg-slate-300 dark:bg-slate-900 w-full h-screen min-h-screen  flex flex-col items-center p-8">
+  <body class="font-poppins" id="root">
+    <main
+      class="bg-slate-300 dark:bg-slate-900 w-full h-screen min-h-screen flex flex-col items-center p-8"
+    >
       <!-- Toggle Switch Button -->
-      <div class="bg-white dark:bg-slate-800 w-20 h-20 flex items-center justify-center rounded-full">
+      <div
+        class="bg-white dark:bg-slate-800 w-20 h-20 flex items-center justify-center rounded-full"
+      >
         <img
           id="toggle-btn"
           class="w-10 h-10 cursor-pointer"
@@ -19,11 +25,23 @@
         />
       </div>
       <!-- End Toggle Switch Button -->
-      <div>
-        <h1 class="text-black dark:text-white">Murodbek</h1>
+      <!-- Profile info -->
+      <div class="">
+        <!-- Profile picture -->
+        <div class="">
+          <img src="./assets/images/avatar.png" alt="Avatar photo" />
+        </div>
+        <!-- End Profile picture -->
+
+        <!-- Profile informations -->
+        <div class="">
+           <h3 class="text-slate-900">Victor Alvarado</h3>
+        </div>
+        <!-- End Profile informations -->
       </div>
+      <!-- End Profile info -->
     </main>
 
-    <script src="./index.js"></script> 
+    <script src="./index.js"></script>
   </body>
 </html>
