@@ -7,35 +7,58 @@
     <title>Portfolio</title>
     <link href="./assets/css/output.css" rel="stylesheet" />
     <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body class="font-poppins" id="root">
     <main
       class="bg-slate-300 dark:bg-slate-900 w-full h-screen min-h-screen flex flex-col items-center p-8"
     >
       <!-- Toggle Switch Button -->
       <div
-        class="bg-white dark:bg-slate-800 w-20 h-20 flex items-center justify-center rounded-full"
+        class="bg-white dark:bg-slate-800 w-20 h-20 mb-16 flex items-center justify-center rounded-full"
       >
         <img
           id="toggle-btn"
           class="w-10 h-10 cursor-pointer"
-          src="./assets/images/toggle-btn-white.svg"
+          src="./assets/images/toggle-btn-dark.svg"
           alt="icon"
         />
       </div>
       <!-- End Toggle Switch Button -->
       <!-- Profile info -->
-      <div class="">
+      <div class="flex flex-row">
         <!-- Profile picture -->
-        <div class="">
+        <div class="w-52 h-52 flex justify-center items-center rounded-full mr-10 border-2 border-orange-300">
           <img src="./assets/images/avatar.png" alt="Avatar photo" />
         </div>
         <!-- End Profile picture -->
 
         <!-- Profile informations -->
-        <div class="">
-           <h3 class="text-slate-900">Victor Alvarado</h3>
+        <div class="flex flex-col">
+          <h3
+            class="text-slate-900 dark:text-slate-300 text-5xl antialiased font-medium leading-tight"
+          >
+            Victor Alvarado
+          </h3>
+          <p
+            class="text-slate-900 dark:text-slate-300 text-2xl antialiased font-medium leading-8"
+          >
+            Software Engineer
+          </p>
+          <!-- Socialmedia icons -->
+          <div class="flex flex-row">
+           <a class="p-3" href="#"><img id="icon-git" class="w-8 h-8" src="./assets/images/icons/git-dark.svg" alt="Socialmedia icons" /></a>
+           <a class="p-3" href="#"><img id="icon-twitter" class="w-8 h-8" src="./assets/images/icons/twitter-dark.svg" alt="Socialmedia icons" /></a>
+           <a class="p-3" href="#"><img id="icon-linkedin" class="w-8 h-8" src="./assets/images/icons/linkedin-dark.svg" alt="Socialmedia icons" /></a>
+           <a class="p-3" href="#"><img id="icon-youtube" class="w-8 h-8" src="./assets/images/icons/youtube-dark.svg" alt="Socialmedia icons" /></a>
+          </div>
+          <!-- End Socialmedia icons -->
         </div>
         <!-- End Profile informations -->
       </div>
