@@ -589,6 +589,12 @@ video {
   height: 2rem;
 }
 
+.h-max {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -732,6 +738,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:mr-10 {
+    margin-right: 2.5rem;
+  }
+
   .sm\:flex {
     display: flex;
   }
